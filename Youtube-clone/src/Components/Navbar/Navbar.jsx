@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import Menu_icon from '../../assets/menu.png'
+import Menu_icon from '../../assets/menu3.png.gif'
 import logo2 from '../../assets/logo2.png'
 import Search_icon from '../../assets/search.png'
 import upload_icon from '../../assets/upload.png'

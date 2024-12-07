@@ -21,7 +21,7 @@ const Feed = () => {
         <h3>Carry Minati</h3>
         <p>100k views &bull; 2 days ago </p>
     </div>
-    <Link to={video2} className='card'>
+    <Link to={`video/20/4521`} className='card'>
         <img src={thumbnail1} alt="" />
         
         <h2>Best channel to learn coding that help you to be a web developer</h2>
