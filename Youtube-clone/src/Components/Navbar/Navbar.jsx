@@ -10,11 +10,11 @@ import profile_icon from '../../assets/jack.png'
 
 
 
-const Navbar = () => {
+const Navbar = ({setSidebar}) => {
   return (
     <nav className='flex-div'>
         <div className='nav-left flex-div'>
-            <img clssName='menu_icon' src={Menu_icon} alt="menu"/>
+            <img className='menu_icon'onClick={()=>setSidebar(prev=>prev===false?true:false)} src={Menu_icon} alt="menu"/>
             <img className='logo' src={logo2} alt="logo"/>
 
         </div>

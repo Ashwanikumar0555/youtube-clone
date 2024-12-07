@@ -32,7 +32,7 @@ nav{
 }
 .nav-right img{
     width: 25px;
-    margin-right: 100px;
+    /* margin-right: 100px; */
     
 }
 
@@ -40,4 +40,13 @@ nav{
     width: 50px;
     border-radius: 50%;
 
+}
+.nav-right.flex-div{
+    margin-left: 40px;
+    gap: 40px;
+
+}
+.flex-div{
+    display: flex;
+    justify-content: space-between;
 }
