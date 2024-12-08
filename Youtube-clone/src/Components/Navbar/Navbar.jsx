@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import Menu_icon from '../../assets/menu3.png.gif'
-import logo2 from '../../assets/logo2.png'
+import logo2 from '../../assets/youtube-4923_256.gif'
 import Search_icon from '../../assets/search.png'
 import upload_icon from '../../assets/upload.png'
 import more_icon from '../../assets/more.png'

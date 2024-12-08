@@ -11,13 +11,14 @@ import vardaan from '../../assets/Vardaan - CarryMinati.mp3'
 
 
 
-const PlayVideo = () => {
+const PlayVideo = ({videoId}) => {
   return (
     <div className='play-video'>
-        <video src={video1}controls autoPlay muted></video> 
+        {/* <video src={video1}controls autoPlay muted></video>  */}
+        <iframe width="740" height="416" src={`https://www.youtube.com/embed/${videoId}?autoplay=1`} title="I Tried the Top 5 Restaurants in America" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <h3>Best Youtube Channel To Learn Web Development</h3>
         <div className="play-video-info">
-          <p> 100k views &bull; 2 days ago</p>
+          <p>100k views &bull; 2 days ago</p>
         <div>
         <span><img src={like} alt=""/> 125 </span>
         <span><img src={dislike} alt=""/> 200 </span>
@@ -33,6 +34,13 @@ const PlayVideo = () => {
       <span> 1M subscribers </span>
     </div>
     <button> Subscribe</button>
+  </div>
+  <div className="vid-description">
+    <p>Channel Makes Learning Easy</p>
+    <p>Subscribe AshwaniKumar to Watch More Tutorial On Web Development </p>
+    <hr />
+    <h4> 299k Comments</h4>
+
   </div>
   </div>
       

@@ -50,3 +50,22 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+@media (max-width:900px) {
+    .menu-icon{
+        display: none;
+
+    }
+    .nav-right img{
+        display: none;
+    }
+    .nav-right .user_icon{
+        display: block;
+        width: 30px;
+    }
+    .logo2{
+        width: 90;
+    }
+    .nav-middle .search-box input{
+        width: 100px;
+    }
+}
